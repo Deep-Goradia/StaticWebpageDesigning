@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+p{
+   /*color: rgba(146, 159, 31, 0.888); */
+    font-size: large;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h2{
+    color:rgb(242, 255, 1);
+}
+.hero{
+    height:100vh;
+    background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),
+    url("/Project/Food-Website/Images/bg01.jpg");
+    background-position:center;
+    background-size:cover;
+    overflow-x:hidden;
+    position:relative;
+}
+
+.buttons{
+    text-align:center;
+}
+
+/* Style for homebutton class */
+.homebutton {
+    display: block;
+    margin: 0 auto;
+    color: yellowgreen;
+    padding: 10px 20px;
+    border:0;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.redirect{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(0, 0, 0);
+    background-color: #d6f00c;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.redirectR{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 50px;
+    background-color: #d6f00c;
+    text-align: center;
+}
+
+.redirectReg{
+    text-align: center;
+}
+
+.about{
+margin:120px;
+color:#fff;
+}
+.about h1{
+    font-size:64px;
+    margin-bottom:30px;
+    }
+     .about h1 span{
+        color:rgb(118, 118, 21);
+        }
+
+.image img{
+    width: 90px;
+    height: 90px;
+    padding-top: 50px;
+    margin-left: 50px;
+
+}    
+
+.icons{
+    text-align: center;
+    padding-block: 200px;
+}
+
+.icons i{
+    align-items: center;
+    color: #fff;
+    display:contents;
+}
+
+.social-icon{
+        display: flex;
+        padding-left: 525px;
+}
+
+.social-icon img{
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    height: 40px;
+}

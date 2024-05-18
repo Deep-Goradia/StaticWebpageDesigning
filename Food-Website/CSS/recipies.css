@@ -1,0 +1,69 @@
+body{
+    background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),
+    url("/Project/Food-Website/Images/bg01.jpg");
+
+    background-size:contain;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    color: yellowgreen;
+    padding: 10px 20px;
+    border:0;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.redirect{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(0, 0, 0);
+    background-color: #d6f00c;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.image{
+    text-align: center;
+}
+
+h1{
+    color: yellow;
+}
+
+.pizzaRecipie{
+    color: white;
+}
+
+.pizzaRecipie img{
+                border-radius: 25px;
+}
+
+.pizzaRecipie li{
+    text-decoration: none;
+}
+
+.burgerRecipie{
+    color: white;
+}
+
+.burgerRecipie img{
+                border-radius: 25px;
+}
+
+.friesRecipie{
+    color: white;
+}
+
+.friesRecipie img{
+                border-radius: 25px;
+                
+}
+
+.samosaRecipie{
+    color: white;
+}
+
+.samosaRecipie img{
+                border-radius: 25px;
+}

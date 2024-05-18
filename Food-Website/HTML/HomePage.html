@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick_Bites</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Project/Food-Website/CSS/Homepage.css">
+    <link rel="shortcut icon" href="/Project/Food-Website/Images/Logo5.png" type="image/x-icon">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="/Project/Food-Website/Images/Logo5.png" height="60" width="60">
+            </div>
+<br><br><br><br><br>
+            
+    <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()" ></i>
+               <div class="redirector">
+                <ul>
+                    <a href="#">
+                        <li>Quick-Bites </li>
+                    </a>
+                    <a href="/Project/Food-Website/HTML/About.html">
+                        <li> ABOUT US</li>
+                    </a>
+                    <a href="/Project/Food-Website/HTML/recipies.html">
+                        <li>RECIPIES </li>
+                    </a>  
+                </ul>
+            </div>
+                <a href="/Project/Food-Website/HTML/Reg_page.html"><button type="button" class="btn">SIGN_UP</button></a>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </div>
+        <div class="banner-title">
+        <h1>Food<span> doesn't have<br> a religion.</span> It is a religion.</h1>
+        <a href="/Project/Food-Website/HTML/info.html"><button type="button" class="btn">EXPLORE</button></a>
+        </div>
+        <div class="vertical-bar">
+
+            <div class="search">
+                <a href=""><img src="/Project/Food-Website/Images/search.png" alt=""></a>
+            </div>
+
+            <div class="notify">
+                <a href=""><img src="/Project/Food-Website/Images/bell.png" alt=""></a>
+            </div>
+            
+            <div class="yt">
+                <a href=""><img src="/Project/Food-Website/Images/youtube.png" alt=""></a>
+            </div>
+
+          <div class="social-icon">
+            
+            <div class="insta">
+                <a href=""><img src="/Project/Food-Website/Images/insta.png" alt=""></a>
+            </div>
+
+            <div class="faceb">
+                <a href=""><img src="/Project/Food-Website/Images/facebook.png" alt=""></a>
+            </div>
+
+            <div class="twit">
+                <a href=""><img src="/Project/Food-Website/Images/twitter.png" alt=""></a>
+            </div>
+
+            <div class="pin">
+                <a href=""><img src="/Project/Food-Website/Images/pintrest.png" alt=""></a>
+            </div>
+
+            <div class="git">
+               <a href=""><img src="/Project/Food-Website/Images/github.png" alt=""></a>
+            </div>
+          </div>  
+        </div>
+
+          <div class="slideshow">
+            <div class="slide">
+              <img src="/Project/Food-Website/Images/fries.jpg" width="200px" height="100px" alt="Slide 1">
+            </div>
+            
+            <div class="slide">
+              <img src="/Project/Food-Website/Images/burger.jpg" width="200px" height="100px" alt="Slide 2">
+            </div>
+            
+            <div class="slide">
+              <img src="/Project/Food-Website/Images/pizza.jpg" width="200px" height="100px" alt="Slide 3">
+            </div>
+
+            <div class="slide">
+                <img src="/Project/Food-Website/Images/samosa.jpg" width="200px" height="100px" alt="Slide 3">
+              </div>
+
+              <div class="slide">
+                <img src="/Project/Food-Website/Images/sandwich.jpg" width="200px" height="100px" alt="Slide 3">
+              </div>
+
+          </div>
+        
+    </div>
+<script>
+    var show = document.getElementById("nav-links");
+    function showMenu(){
+        show.style.right="0";
+    }
+    function closeMenu(){
+        show.style.right="-200px";
+    }
+</script>
+</body>
+
+</html>
